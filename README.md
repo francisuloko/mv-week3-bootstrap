@@ -38,9 +38,14 @@ This is the third project for Microverse.
   
 - Frameworks used: Bootstrap CSS Framework.
 
+## Screenshots
+
+- ![Mobile](./screenshots/sm-screenshot-newsweek.png)
+- ![Large Screen](./screenshots/lg-screenshoot-newsweek.png)
+
 ## Live Demo
 
-[Link To Github Repo](https://carlos-osorio-developer.github.io/mv-week3-bootstrap/)
+[Newsweek-clone](https://carlos-osorio-developer.github.io/mv-week3-bootstrap/)
 
 ## Getting Started
 
@@ -83,9 +88,9 @@ Run index.html in your preferred browser.
 
 👤 **Francis**
 
-- GitHub: []()
-- Twitter: []()
-- LinkedIn: []()
+- GitHub: [@francisuloko](https://github.com/francisuloko)
+- Twitter: [@francisuloko](https://www.twitter.com/francisuloko)
+- LinkedIn: [francisuloko](http://www.linkedin.com/in/francisuloko)
 
 ## 🤝 Contributing
 
@@ -99,7 +104,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Thanks to Microverse and his supportive community.
+- Thanks to Microverse and their supportive community.
 - Thanks to everyone commiting in this project.
 
 ## 📝 License

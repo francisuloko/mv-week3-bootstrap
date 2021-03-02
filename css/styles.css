@@ -1,1 +1,20 @@
-/* General */
+@font-face {
+  font-family: "merit";
+  src: url("../css/Merit.ttf");
+}
+
+.logo {
+  font-family: merit, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.top-menu::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  width: 100px;
+  background-color: #dc3545;
+  border-left: 12px solid white;
+  border-top: 13px solid #dc3545;
+}

@@ -3,11 +3,12 @@
 package-lock.json
 package.json
 .stylelintrc.json
+pubspec.yaml
+.hintrc
 
 
 # Folders #
 ###################
-/node_modules
 /.vscode
 # Compiled source #
 ###################
