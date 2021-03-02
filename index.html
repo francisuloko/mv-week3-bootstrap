@@ -9,70 +9,73 @@
     <script src="https://kit.fontawesome.com/69c8e727d8.js" crossorigin="anonymous"></script>
     <title>Project3: Bootstrap</title>
 </head>
-<body>
-    <div class="wrappr">
-        <header class="newsweek-header row">
-            <div class="row red-header">
-                <div class="col-2 date text-white">Wed, Jan 20, 2021</div>
-                <div class="col-6 col-sm-6"><h1 class="logo text-white">Newsweek</h1></div>
-                <div class="col-4">
-                    <div class="row membership">
-                        <div class="col-12">
-                            <ul class="d-flex">
-                                <li class="nav-item profile"><a class="nav-links text-white " href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
-                                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                                  </svg></a></li>
-                                <li class="nav-item"><a class="nav-links text-white login" href="#">LOGIN</a></li>
-                                <li class="nav-item"><button class="btn bg-warning subscribe">SUBSCRIBE</button></li>
-                                <li class="nav-item menu"><a class="nav-links text-white" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                                  </svg></a></li>
-                            </ul>
-                        </div>
-                    </div>
+<body class="container-fluid mt-5">
+    <header class="pt-4 pb-2 px-3">
+        <div class="d-flex justify-content-between px-3 align-items-baseline bg-danger pt-4 pb-2 px-3 sticky-top constainer-fluid">
+            <div class="date text-white d-none d-sm-none d-md-none d-lg-none d-xl-inline">Wed, Jan 20, 2021</div>
+            <div>
+                <h1 class="logo text-white fs-1 m-0 me-5 d-inline d-sm-inline d-md-inline d-lg-none"><a class="text-decoration-none text-white pe-6 fs-1 flex-fill" href="#">Newsweek</a></h1>
+                <h1 class="logo text-white m-0 me-5 d-none d-sm-none d-md-none d-lg-none d-xl-inline"><a class="text-decoration-none text-decoration-none text-white pe-6 display-1 flex-fill" href="#">Newsweek</a></h1>
+            </div>
+            <div class="d-flex gap-3 justify-content-between align-items-center">
+                <a class="text-decoration-none nav-links text-white profile d-none d-sm-inline d-md-none d-lg-none" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                    </svg>
+                </a>
+                <a class="text-decoration-none btn text-white login fw-bold fs-5 d-none d-sm-none d-md-inline d-lg-inline" href="#">LOGIN</a>
+                <a class="text-decoration-none btn d-none d-sm-inline bg-warning btn-sm py-0 px-3 rounded-pill fs-5 fw-bold d-flex align-items-center">
+                    <span>SUBSCRIBE </span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                    </svg></a>
+                <a class="text-decoration-none nav-links text-white menu d-sm-inline d-md-inline d-lg-inline d-xl-none" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <nav class="top-nav">
+            <div class="grey-bg bg-light">
+                <div class="bg-light top-menu d-sm-none d-md-none d-lg-none d-xl-block position-relative">
+                    <div class="col- flex-md-row gap-2 text-capitalize text-grey bg-light pt-3 pb-3 px-3 border-bottom">
+                        <a class="text-decoration-none nav-links link-dark border-end ps-1 pe-2 fs-5 flex-shrink-1" href="#">U.S</a>
+                        <a class="text-decoration-none nav-links link-dark border-end ps-1 pe-2 fs-5 flex-shrink-1" href="#">world</a>
+                        <a class="text-decoration-none nav-links link-dark border-end ps-1 pe-2 fs-5 flex-shrink-1" href="#">business</a>
+                        <a class="text-decoration-none nav-links link-dark border-end ps-1 pe-2 fs-5 flex-shrink-1" href="#">tech & science</a>
+
+                        <a class="text-decoration-none nav-links link-dark border-end ps-1 pe-2 fs-5 flex-shrink-1" href="#">culture</a>
+                        <a class="text-decoration-none nav-links link-dark border-end ps-1 pe-2 fs-5 flex-shrink-1" href="#">newsgeek</a>
+                        <a class="text-decoration-none nav-links link-dark border-end ps-1 pe-2 fs-5 flex-shrink-1" href="#">sports</a>
+                        <a class="text-decoration-none nav-links link-dark border-end ps-1 pe-2 fs-5 flex-shrink-1" href="#">health</a>
+        
+                        <a class="text-decoration-none nav-links link-dark border-end ps-1 pe-2 fs-5 flex-shrink-1" href="#">the debates</a>
+                        <a class="text-decoration-none nav-links link-dark border-end ps-1 pe-2 fs-5 flex-shrink-1" href="#">experts</a>
+                        <a class="text-decoration-none nav-links link-dark border-end ps-1 pe-2 fs-5 flex-shrink-1" href="#">vantage</a>
+                        <a class="text-decoration-none nav-links text-capitalize fw-light link-secondary px-2" href="#"> search
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                            </svg>
+                        </a>
+                </div>
+                <div class="col d-flex gap-4 text-uppercase fw-bold bg-light pt-4 pb-3 px-3 d-sm-none d-md-none d-lg-none d-xl-block border-bottom">
+                        <span class="nav-links link-dark ps-4">trending</span>
+                        <a class="text-decoration-none nav-links link-secondary ps-1 pe-2 fs-6 flex-shrink-1" href="#">joe bidden</a>
+                        <a class="text-decoration-none nav-links link-secondary ps-1 pe-2 fs-6 flex-shrink-1" href="#">donald trump</a>
+                        <a class="text-decoration-none nav-links link-secondary ps-1 pe-2 fs-6 flex-shrink-1" href="#">inaugration</a>
+                        <a class="text-decoration-none nav-links link-secondary ps-1 pe-2 fs-6 flex-shrink-1" href="#">coronavirus</a>
+                        <a class="text-decoration-none nav-links link-secondary ps-1 pe-2 fs-6 flex-shrink-1" href="#">stimulus package</a>
+                        <a class="text-decoration-none nav-links link-secondary ps-1 pe-2 fs-6 flex-shrink-1" href="#">vaccine</a>
+                        <a class="text-decoration-none nav-links link-secondary ps-1 pe-2 fs-6 flex-shrink-1" href="#">capitol riots</a>
                 </div>
             </div>
-            <nav>
-                <div class="row grey-bg">
-                    <div class="row top-menu">
-                        <ul>
-                            <li class="nav-item"><a class="nav-links" href="#">u.s</a></li>
-                            <li class="nav-item"><a class="nav-links" href="#">world</a></li>
-                            <li class="nav-item"><a class="nav-links" href="#">business</a></li>
-                            <li class="nav-item"><a class="nav-links" href="#">tech & science</a></li>
+        </nav>
+    </header>
     
-                             <li class="nav-item"><a class="nav-links" href="#">culture</a></li>
-                             <li class="nav-item"><a class="nav-links" href="#">newsgeek</a></li>
-                             <li class="nav-item"><a class="nav-links" href="#">sports</a></li>
-                             <li class="nav-item"><a class="nav-links" href="#">health</a></li>
-            
-                             <li class="nav-item"><a class="nav-links" href="#">the debates</a></li>
-                             <li class="nav-item"><a class="nav-links" href="#">experts</a></li>
-                             <li class="nav-item"><a class="nav-links" href="#">vantage</a></li>
-                             <li class="nav-item"><a class="nav-links" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                              </svg></a></li>
-                        </ul>
-                    </div>
-                    <div class="row trending">
-                        <ul class="trend">
-                            <li class="nav-item"><a class="nav-links" href="#">trending</a></li>
-                             <li class="nav-item"><a class="nav-links" href="#">joe bidden</a></li>
-                             <li class="nav-item"><a class="nav-links" href="#">donald trump</a></li>
-                             <li class="nav-item"><a class="nav-links" href="#">inaugration</a></li>
-            
-                             <li class="nav-item"><a class="nav-links" href="#">coronavirus</a></li>
-                             <li class="nav-item"><a class="nav-links" href="#">stimulus package</a></li>
-                             <li class="nav-item"><a class="nav-links" href="#">vaccine</a></li>
-                             <li class="nav-item"><a class="nav-links" href="#">capitol riots</a></li>
-                        </ul>
-                        <div class="clip"></div>
-                    </div>
-                </div>
-            </nav>
-        </header> 
-    </div>
-    <h1>Hello, world!</h1>
+    <main>
+        <h1>Header and Footer</h1>
+    </main>
     
     <footer>
         <div class="d-flex flex-column px-4 pt-4 align-items-start flex-md-row align-items-md-end justify-content-md-between"> 
@@ -91,30 +94,30 @@
             </div>            
         </div>
         <div class="navlinks p-4">
-            <div class="idioms d-flex align-items-center border-top py-2">
-                <strong>Editions: </strong>
+            <div class="idioms d-flex align-items-top border-top py-2">
+                <strong class="d-sm-block">Editions: </strong>
                 <ul class="d-flex flex-wrap list-unstyled mb-0">
-                    <a href="#" class="text-decoration-none ms-2 text-muted"><li>U.S. Edition</li></a>
-                    <a href="#" class="text-decoration-none ms-2 text-muted ps-2 border-start"><li>日本</li></a>
-                    <a href="#" class="text-decoration-none ms-2 text-muted ps-2 border-start"><li>Pakistan</li></a>
-                    <a href="#" class="text-decoration-none ms-2 text-muted ps-2 border-start"><li>Polska</li></a>
-                    <a href="#" class="text-decoration-none ms-2 text-muted ps-2 border-start"><li>România</li></a>
+                    <a href="#" class="text-decoration-none ms-2 text-muted d-sm-block ps-2"><li>U.S. Edition</li></a>
+                    <a href="#" class="text-decoration-none ms-2 text-muted d-sm-block ps-2 border-start"><li>日本</li></a>
+                    <a href="#" class="text-decoration-none ms-2 text-muted d-sm-block ps-2 border-start"><li>Pakistan</li></a>
+                    <a href="#" class="text-decoration-none ms-2 text-muted d-sm-block ps-2 border-start"><li>Polska</li></a>
+                    <a href="#" class="text-decoration-none ms-2 text-muted d-sm-block ps-2 border-start"><li>România</li></a>
                 </ul>
             </div>
             <div class="footer-nav">
-                <ul class="d-flex flex-wrap list-unstyled ">
-                    <a href="#" class="text-decoration-none pe-2 me-2 mb-2 text-muted border-end"><li>About Us</li></a>
-                    <a href="#" class="text-decoration-none pe-2 me-2 mb-2 text-muted border-end"><li>Corrections</li></a>
-                    <a href="#" class="text-decoration-none pe-2 me-2 mb-2 text-muted border-end"><li>Contact Us</li></a>
-                    <a href="#" class="text-decoration-none pe-2 me-2 mb-2 text-muted border-end"><li>Editorial Guidelines</li></a>
-                    <a href="#" class="text-decoration-none pe-2 me-2 mb-2 text-muted border-end"><li>Advertise</li></a>
-                    <a href="#" class="text-decoration-none pe-2 me-2 mb-2 text-muted border-end"><li>Copyright</li></a>
-                    <a href="#" class="text-decoration-none pe-2 me-2 mb-2 text-muted border-end"><li>Terms & Conditions</li></a>
-                    <a href="#" class="text-decoration-none pe-2 me-2 mb-2 text-muted border-end"><li>Privacy Policy</li></a>
-                    <a href="#" class="text-decoration-none pe-2 me-2 mb-2 text-muted border-end"><li>Cookie Policy</li></a>
-                    <a href="#" class="text-decoration-none pe-2 me-2 mb-2 text-muted border-end"><li>Terms of Sale</li></a>
-                    <a href="#" class="text-decoration-none pe-2 me-2 mb-2 text-muted border-end"><li>Archive</li></a>
-                    <a href="#" class="text-decoration-none pe-2 me-2 mb-2 text-muted"><li>Announcements</li></a>
+                <ul class="d-flex flex-wrap list-unstyled fs-6">
+                    <a href="#" class="text-decoration-none p-1 me-0 mb-2 text-muted border-end"><li>About Us</li></a>
+                    <a href="#" class="text-decoration-none p-1 me-0 mb-2 text-muted border-end"><li>Corrections</li></a>
+                    <a href="#" class="text-decoration-none p-1 me-0 mb-2 text-muted border-end"><li>Contact Us</li></a>
+                    <a href="#" class="text-decoration-none p-1 me-0 mb-2 text-muted border-end"><li>Editorial Guidelines</li></a>
+                    <a href="#" class="text-decoration-none p-1 me-0 mb-2 text-muted border-end"><li>Advertise</li></a>
+                    <a href="#" class="text-decoration-none p-1 me-0 mb-2 text-muted border-end"><li>Copyright</li></a>
+                    <a href="#" class="text-decoration-none p-1 me-0 mb-2 text-muted border-end"><li>Terms & Conditions</li></a>
+                    <a href="#" class="text-decoration-none p-1 me-0 mb-2 text-muted border-end"><li>Privacy Policy</li></a><p></p>
+                    <a href="#" class="text-decoration-none p-1 me-0 mb-2 text-muted border-end"><li>Cookie Policy</li></a>
+                    <a href="#" class="text-decoration-none p-1 me-0 mb-2 text-muted border-end"><li>Terms of Sale</li></a>
+                    <a href="#" class="text-decoration-none p-1 me-0 mb-2 text-muted border-end"><li>Archive</li></a>
+                    <a href="#" class="text-decoration-none p-1 me-0 mb-2 text-muted"><li>Announcements</li></a>
                 </ul>
             </div>
         </div>
