@@ -31,9 +31,6 @@ This is the third project for Microverse.
 - CSS animations & transitions.
 - Responsive Website design.
 - CSS frameworks (Bootstrap).
-  
-  > Site Preview:
-  ![screenshot](./app_screenshot.png)
 
 ## Built With
 
@@ -43,7 +40,7 @@ This is the third project for Microverse.
 
 ## Live Demo
 
-[Link To Github Repo](https://carlos-osorio-developer.github.io/mv-week3-bootstrap/)
+[Newsweek-clone](https://carlos-osorio-developer.github.io/mv-week3-bootstrap/)
 
 ## Getting Started
 
@@ -86,9 +83,9 @@ Run index.html in your preferred browser.
 
 👤 **Francis**
 
-- GitHub: []()
-- Twitter: []()
-- LinkedIn: []()
+- GitHub: [@francisuloko](https://github.com/francisuloko)
+- Twitter: [@francisuloko](https://www.twitter.com/francisuloko)
+- LinkedIn: [francisuloko](http://www.linkedin.com/in/francisuloko)
 
 ## 🤝 Contributing
 
@@ -102,7 +99,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Thanks to Microverse and his supportive community.
+- Thanks to Microverse and their supportive community.
 - Thanks to everyone commiting in this project.
 
 ## 📝 License
