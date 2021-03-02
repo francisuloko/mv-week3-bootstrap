@@ -38,6 +38,11 @@ This is the third project for Microverse.
   
 - Frameworks used: Bootstrap CSS Framework.
 
+## Screenshots
+
+- [Mobile](./screenshots/lg-screenshot-newsweek)
+- [Large Screen](./screenshots/lg-screenshot-newsweek)
+
 ## Live Demo
 
 [Newsweek-clone](https://carlos-osorio-developer.github.io/mv-week3-bootstrap/)
