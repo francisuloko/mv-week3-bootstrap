@@ -31,9 +31,6 @@ This is the third project for Microverse.
 - CSS animations & transitions.
 - Responsive Website design.
 - CSS frameworks (Bootstrap).
-  
-  > Site Preview:
-  ![screenshot](./app_screenshot.png)
 
 ## Built With
 
