@@ -1,6 +1,6 @@
 @font-face {
   font-family: "merit";
-  src: url("/css/Merit.ttf");
+  src: url("../css/Merit.ttf");
 }
 
 .logo {
