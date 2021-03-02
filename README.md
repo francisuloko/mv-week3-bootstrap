@@ -40,7 +40,10 @@ This is the third project for Microverse.
 
 ## Screenshots
 
+- Mobile view
 - ![Mobile](./screenshots/sm-screenshot-newsweek.png)
+- 
+- Large Screen
 - ![Large Screen](./screenshots/lg-screenshoot-newsweek.png)
 
 ## Live Demo
