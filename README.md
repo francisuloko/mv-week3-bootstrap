@@ -66,7 +66,7 @@ Open your terminal and locate on the folder you want to clone the repository.
 Run the following command into your terminal:
 
 ```console
-git clone https://github.com/carlos-osorio-developer/mv-week2-responsive
+git clone https://github.com/carlos-osorio-developer/mv-week3-bootstrap.git
 ```
 
 ### Usage
