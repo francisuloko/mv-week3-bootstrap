@@ -13,7 +13,7 @@
     <header class="pt-4 pb-2">
         <div class="d-flex justify-content-between px-3 align-items-baseline bg-danger pt-4 pb-2 px-3 sticky-top constainer-fluid">
             <div class="date text-white d-none d-sm-none d-md-none d-lg-none d-xl-inline">Wed, Jan 20, 2021</div>
-            <div class="mb-4">
+            <div id="logo-container" class="mb-4">
                 <h1 class="logo text-white fs-1 m-0 me-5 d-inline d-sm-inline d-md-inline d-xl-none"><a class="text-decoration-none text-white pe-6 fs-1 flex-fill" href="#">Newsweek</a></h1>
                 <h1 class="logo text-white m-0 me-5 d-none d-sm-none d-md-none d-lg-none d-xl-inline d-xxl-inline"><a class="text-decoration-none text-decoration-none text-white pe-6 display-1 flex-fill" href="#">Newsweek</a></h1>
             </div>
@@ -29,7 +29,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
                     </svg></a>
-                <a class="text-decoration-none nav-links text-white menu d-sm-inline d-md-inline d-lg-inline d-xl-none" href="#">
+                <a id="hamb-menu" class="text-decoration-none nav-links text-white menu d-sm-inline d-md-inline d-lg-inline d-xl-none" href="#">
                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
                     </svg>
@@ -1039,11 +1039,17 @@
                 </div>
             </div>
         </div>
-        </footer>
-        
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        </footer>        
         <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script>
+            var hambMenu = document.getElementById('hamb-menu');
+            var logocont=document.getElementById("logo-container");
+            hambMenu.addEventListener("click", function (event) {                            
+                logocont.style.animation="1s ease-out 0s 1 rotateLogo";                               
+            });
+            logocont.addEventListener("animationend", function (event1) {
+                logocont.style.animation="";
+            });             
+        </script>
     </body>
 </html>
