@@ -18,3 +18,14 @@
   border-left: 12px solid white;
   border-top: 13px solid #dc3545;
 }
+
+/* Animations ==================================== */
+
+@keyframes rotateLogo {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
