@@ -10,6 +10,8 @@ pubspec.yaml
 # Folders #
 ###################
 /.vscode
+node_modules/
+
 # Compiled source #
 ###################
 *.com
